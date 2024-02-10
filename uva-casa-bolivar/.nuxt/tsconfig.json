@@ -6,7 +6,7 @@
     "jsxImportSource": "vue",
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "Bundler",
     "skipLibCheck": true,
     "isolatedModules": true,
     "useDefineForClassFields": true,
@@ -27,10 +27,10 @@
         "../*"
       ],
       "@": [
-        ".."
+        "../../../../../../.."
       ],
       "@/*": [
-        "../*"
+        "../../../../../../../*"
       ],
       "~~": [
         ".."
@@ -46,6 +46,9 @@
       ],
       "assets": [
         "../assets"
+      ],
+      "assets/*": [
+        "../assets/*"
       ],
       "public": [
         "../public"
@@ -84,10 +87,12 @@
     "../**/*",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
-    ".."
+    "..",
+    "../../../../../../.."
   ],
   "exclude": [
     "../node_modules",
+    "../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

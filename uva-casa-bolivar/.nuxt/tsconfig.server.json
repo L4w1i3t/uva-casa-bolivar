@@ -4,7 +4,7 @@
     "strict": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "Bundler",
     "allowJs": true,
     "resolveJsonModule": true,
     "jsx": "preserve",
@@ -25,10 +25,7 @@
         "../*"
       ],
       "@": [
-        "./.."
-      ],
-      "@/*": [
-        "../*"
+        "../../../../../../.."
       ],
       "~~": [
         "./.."
@@ -44,6 +41,9 @@
       ],
       "assets": [
         "../assets"
+      ],
+      "assets/*": [
+        "../assets/*"
       ],
       "public": [
         "../public"
@@ -63,6 +63,7 @@
   ],
   "exclude": [
     "../node_modules",
+    "../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../dist"
   ]
