@@ -1,0 +1,112 @@
+/* Carousel Styles */
+.carousel {
+    background-color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 90vw;  /* Maximum width for large screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.resident {
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resident.active {
+    display: flex;
+}
+
+/* Dynamic Photo Sizing */
+.resident-photo .photo-frame {
+    width: 35vw;   /* 35% of the viewport width */
+    height: 35vw;  /* Keep the height equal to the width for a square */
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  /* Ensure any overflow is hidden */
+    position: relative; /* Enable positioning of previous and next images */
+}
+
+.resident-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Crop the image to cover the entire frame */
+}
+
+.resident-info {
+    margin-top: 30px;
+    padding: 0 20px;  /* Add padding to prevent text from touching edges */
+    max-width: 60vw;
+}
+
+.resident-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #000;  /* Add a black border below the name */
+    display: inline-block;  /* Make the border fit the name width */
+    padding-bottom: 5px;  /* Add a little space between name and border */
+}
+
+/* Carousel Controls */
+.carousel-control {
+    position: absolute;
+    top: 30vh;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.carousel-control.left {
+    left: 10px;   /* Move button closer to the left edge */
+}
+
+.carousel-control.right {
+    right: 10px;  /* Move button closer to the right edge */
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .resident-photo .photo-frame {
+        width: 70vw;  /* Scale larger for smaller screens */
+        height: 70vw;
+    }
+
+    .resident-info {
+        padding: 0 10px;
+    }
+
+    .carousel-control.left {
+        left: 5px;
+    }
+
+    .carousel-control.right {
+        right: 5px;
+    }
+}
