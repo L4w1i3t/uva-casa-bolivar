@@ -1,0 +1,14 @@
+{
+    "residents": [
+      {
+        "name": "Charles Melvin",
+        "photo": "images/sample.webp",
+        "bio": "[insert bio here]"
+      },
+      {
+        "name": "John Doe",
+        "photo": "images/sample.webp",
+        "bio": "[insert bio here]"
+      }
+    ]
+  }
