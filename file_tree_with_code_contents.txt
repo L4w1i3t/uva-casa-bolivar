@@ -6,17 +6,25 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>La Casa Bolívar</title>
+            <title>Sobre Nosotros | La Casa Bolívar</title>
+            <!-- Font Awesome for icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <!-- Global CSS -->
             <link rel="stylesheet" href="../css/style.css">
-            <link rel="stylesheet" href="css/about_us.css"> <!-- Page-specific CSS -->
+            <!-- Page-specific CSS -->
+            <link rel="stylesheet" href="css/about_us.css">
         </head>
         <body>
             <!-- Header Section -->
             <header>
                 <div class="container">
-                    <div class="menu-toggle" id="mobile-menu">
-                        <span></span><span></span><span></span>
+                    <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                    <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
+        
                     <nav>
                         <ul id="nav-links">
                             <li><a href="../index.html">Principal</a></li>
@@ -32,7 +40,7 @@
                                 </div>
                             </li>
                             <li><a href="../living.html">Vivir en La Casa</a></li>
-                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../current_events.html">Actividades 2024-25</a></li>
                             <li><a href="../past_events.html">Eventos Pasados</a></li>
                             <li><a href="../more.html">Más</a></li>
                         </ul>
@@ -48,61 +56,61 @@
                     <div class="main-content">
                         <section class="about-section">
                             <h2><i class="fas fa-info-circle"></i> ¿Qué somos?</h2>
-                            <p>[Placeholder text for basic info]</p>
+                            <p>[Placeholder text para información básica]</p>
                         </section>
-            
+        
                         <section class="about-section">
                             <h2><i class="fas fa-tasks"></i> ¿Qué Hacemos?</h2>
-                            <p>[Placeholder text outlining typical activities and engagement in the house]</p>
+                            <p>[Placeholder text describiendo actividades típicas y compromisos en la casa]</p>
                         </section>
-            
+        
                         <section class="about-section">
                             <h2><i class="fas fa-bullseye"></i> Nuestra Misión</h2>
-                            <p>[Placeholder text for mission statement]</p>
+                            <p>[Placeholder text para la declaración de misión]</p>
                         </section>
-            
+        
                         <section class="about-section">
                             <h2><i class="fas fa-flag"></i> Nuestro Propósito</h2>
-                            <p>[Placeholder text for purpose and goals]</p>
+                            <p>[Placeholder text para el propósito y objetivos]</p>
                         </section>
-            
+        
                         <section class="about-section">
                             <h2><i class="fas fa-history"></i> Historia y Comunidad</h2>
-                            <p>[Placeholder text on the history and its community impact]</p>
+                            <p>[Placeholder text sobre la historia y su impacto en la comunidad]</p>
                         </section>
                     </div>
-            
+        
                     <aside class="sidebar">
                         <section class="testimonials">
                             <h2><i class="fas fa-quote-left"></i> Testimonios</h2>
                             <div class="testimonial">
                                 <blockquote>"Yaint"</blockquote>
-                                <cite>- John Doe, Resident 20XX</cite>
+                                <cite>- John Doe, Residente 20XX</cite>
                             </div>
-                            <!-- Add more testimonials as needed -->
+                            <!-- Agrega más testimonios según sea necesario -->
                         </section>
-            
+        
                         <section class="photo-gallery">
                             <h2><i class="fas fa-camera"></i> Galería de Fotos</h2>
                             <div class="gallery-container">
-                                <img src="path/to/image1.jpg" alt="Casa Bolivar Event">
-                                <img src="path/to/image2.jpg" alt="Casa Bolivar Residents">
-                                <img src="path/to/image3.jpg" alt="Casa Bolivar Building">
-                                <!-- Add more images as needed -->
+                                <img src="../images/image1.jpg" alt="Evento en Casa Bolívar">
+                                <img src="../images/image2.jpg" alt="Residentes de Casa Bolívar">
+                                <img src="../images/image3.jpg" alt="Edificio de Casa Bolívar">
+                                <!-- Agrega más imágenes según sea necesario -->
                             </div>
                         </section>
-            
+        
                         <section class="faq">
                             <h2><i class="fas fa-question-circle"></i> Preguntas Frecuentes</h2>
                             <details>
-                                <summary>¿Cómo puedo aplicar para vivir en Casa Bolivar?</summary>
-                                <p>[Answer to the application process]</p>
+                                <summary>¿Cómo puedo aplicar para vivir en Casa Bolívar?</summary>
+                                <p>[Respuesta al proceso de aplicación]</p>
                             </details>
                             <details>
-                                <summary>¿Qué actividades se organizan en Casa Bolivar?</summary>
-                                <p>[Answer about activities and events]</p>
+                                <summary>¿Qué actividades se organizan en Casa Bolívar?</summary>
+                                <p>[Respuesta sobre actividades y eventos]</p>
                             </details>
-                            <!-- Add more FAQ items as needed -->
+                            <!-- Agrega más ítems de FAQ según sea necesario -->
                         </section>
                     </aside>
                 </div>
@@ -111,7 +119,7 @@
             <!-- Footer Section -->
             <footer>
                 <div class="container">
-                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                    <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
                 </div>
             </footer>
         
@@ -127,8 +135,12 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>La Casa Bolívar</title>
+            <title>Dirección | La Casa Bolívar</title>
+            <!-- Font Awesome for icons (if needed) -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <!-- Global CSS -->
             <link rel="stylesheet" href="../css/style.css">
+            <!-- Page-specific CSS -->
             <link rel="stylesheet" href="css/address.css">
         </head>
         <body>
@@ -136,7 +148,7 @@
             <header>
                 <div class="container">
                     <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                    <div class="menu-toggle" id="mobile-menu">
+                    <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -158,7 +170,7 @@
                                 </div>
                             </li>
                             <li><a href="../living.html">Vivir en La Casa</a></li>
-                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../current_events.html">Actividades 2024-25</a></li>
                             <li><a href="../past_events.html">Eventos Pasados</a></li>
                             <li><a href="../more.html">Más</a></li>
                         </ul>
@@ -184,13 +196,14 @@
                             <div class="map-embed">
                                 <h3>Mapa</h3>
                                 <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.660304555377!2d-78.50499048797073!3d38.031698071804655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b386469584ccc9%3A0xa077e13ad32d146c!2sCasa%20Bolivar%20(Spanish%20House)%2C%201408%20Jefferson%20Park%20Ave%2C%20Charlottesville%2C%20VA%2022903!5e0!3m2!1sen!2sus!4v1730234973679!5m2!1sen!2sus"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.660304555377!2d-78.50499048797073!3d38.031698071804655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b386469584ccc9%3A0xa077e13ad32d146c!2sCasa%20Bolivar%20(Spanish%20House)%2C%201408%20Jefferson%20Park%20Ave%2C%20Charlottesville%2C%20VA%2022903!5e0!3m2!1sen!2sus!4v1730234973679!5m2!1sen!2sus"
                                     width="600" 
                                     height="450" 
                                     style="border:0;" 
                                     allowfullscreen="" 
                                     loading="lazy" 
-                                    referrerpolicy="no-referrer-when-downgrade">
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Mapa de La Casa Bolívar">
                                 </iframe>
                             </div>
                         </div>
@@ -201,7 +214,7 @@
             <!-- Footer Section -->
             <footer>
                 <div class="container">
-                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                    <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
                 </div>
             </footer>
         
@@ -217,8 +230,12 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>La Casa Bolívar</title>
+            <title>Contacto | La Casa Bolívar</title>
+            <!-- Font Awesome for icons (if needed) -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <!-- Global CSS -->
             <link rel="stylesheet" href="../css/style.css">
+            <!-- Page-specific CSS -->
             <link rel="stylesheet" href="css/contact.css">
         </head>
         <body>
@@ -226,7 +243,7 @@
             <header>
                 <div class="container">
                     <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                    <div class="menu-toggle" id="mobile-menu">
+                    <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -248,7 +265,7 @@
                                 </div>
                             </li>
                             <li><a href="../living.html">Vivir en La Casa</a></li>
-                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../current_events.html">Actividades 2024-25</a></li>
                             <li><a href="../past_events.html">Eventos Pasados</a></li>
                             <li><a href="../more.html">Más</a></li>
                         </ul>
@@ -284,7 +301,7 @@
             <!-- Footer Section -->
             <footer>
                 <div class="container">
-                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                    <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
                 </div>
             </footer>
         
@@ -345,8 +362,7 @@
                 color: #333;
             }
             
-            /* Existing styles for testimonials, gallery, and FAQ */
-            
+            /* Responsive design */
             @media (min-width: 768px) {
                 .content-wrapper {
                     flex-direction: row;
@@ -360,14 +376,6 @@
                 .sidebar {
                     flex: 1;
                 }
-            }
-            
-            .testimonials, .photo-gallery, .faq {
-                margin-bottom: 2rem;
-                padding: 1.5rem;
-                background-color: #f8f8f8;
-                border-radius: 8px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             }
             
             .testimonial {
@@ -775,8 +783,12 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>La Casa Bolívar</title>
+            <title>Director | La Casa Bolívar</title>
+            <!-- Font Awesome for icons (if needed) -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <!-- Global CSS -->
             <link rel="stylesheet" href="../css/style.css">
+            <!-- Page-specific CSS -->
             <link rel="stylesheet" href="css/director.css">
         </head>
         <body>
@@ -784,7 +796,7 @@
             <header>
                 <div class="container">
                     <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                    <div class="menu-toggle" id="mobile-menu">
+                    <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -806,7 +818,7 @@
                                 </div>
                             </li>
                             <li><a href="../living.html">Vivir en La Casa</a></li>
-                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../current_events.html">Actividades 2024-25</a></li>
                             <li><a href="../past_events.html">Eventos Pasados</a></li>
                             <li><a href="../more.html">Más</a></li>
                         </ul>
@@ -820,7 +832,7 @@
                         <h2>Conocer al Director/a</h2>
                         <div class="profile-container">
                             <div class="profile-photo">
-                                <img src="../images/placeholder.jpg" alt="Director Name">
+                                <img src="../images/placeholder.jpg" alt="Nombre del Director/a">
                             </div>
                             <div class="profile-info">
                                 <h3>Nombre del Director/a</h3>
@@ -834,7 +846,7 @@
                                 </div>
                                 <div class="biography">
                                     <h4>Biografía</h4>
-                                    <p>[Insert biographical information here.]</p>
+                                    <p>[Insertar información biográfica aquí.]</p>
                                 </div>
                             </div>
                         </div>
@@ -845,7 +857,7 @@
             <!-- Footer Section -->
             <footer>
                 <div class="container">
-                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                    <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
                 </div>
             </footer>
         
@@ -883,18 +895,20 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>La Casa Bolívar</title>
-            <link rel="stylesheet" href="../css/style.css">
-            <link rel="stylesheet" href="css/social_media.css">
+            <title>Redes Sociales | La Casa Bolívar</title>
             <!-- Font Awesome for social media icons -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <!-- Global CSS -->
+            <link rel="stylesheet" href="../css/style.css">
+            <!-- Page-specific CSS -->
+            <link rel="stylesheet" href="css/social_media.css">
         </head>
         <body>
             <!-- Header Section -->
             <header>
                 <div class="container">
                     <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                    <div class="menu-toggle" id="mobile-menu">
+                    <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -916,7 +930,7 @@
                                 </div>
                             </li>
                             <li><a href="../living.html">Vivir en La Casa</a></li>
-                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../current_events.html">Actividades 2024-25</a></li>
                             <li><a href="../past_events.html">Eventos Pasados</a></li>
                             <li><a href="../more.html">Más</a></li>
                         </ul>
@@ -932,7 +946,7 @@
                         
                         <!-- Instagram Link -->
                         <div class="social-links">
-                            <a href="https://www.instagram.com/uvacasabolivar/" target="_blank" class="social-card instagram">
+                            <a href="https://www.instagram.com/uvacasabolivar/" target="_blank" class="social-card instagram" aria-label="Visita nuestro Instagram">
                                 <i class="fab fa-instagram"></i>
                                 <span class="platform-name">Instagram</span>
                                 <span class="handle">@uvacasabolivar</span>
@@ -945,7 +959,7 @@
             <!-- Footer Section -->
             <footer>
                 <div class="container">
-                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                    <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
                 </div>
             </footer>
         
@@ -1245,6 +1259,7 @@
             color: #fff;
             text-decoration: none;
             font-size: 1rem;
+            cursor: pointer;
         }
         
         .dropbtn::after {
@@ -1302,7 +1317,7 @@
             flex-direction: column;
             justify-content: space-between;
             font-family: 'Arial', sans-serif;
-            background-color: #fff;
+            background-color: #ffffff;
             line-height: 1.6;
         }
         
@@ -1310,6 +1325,7 @@
             background-color: #232D4B;
             color: #fff;
             padding: 10px 0;
+            position: relative;
         }
         
         header h1 {
@@ -1352,7 +1368,7 @@
         .menu-toggle span {
             width: 30px;
             height: 3px;
-            background: white;
+            background: rgb(255, 255, 255);
             margin: 5px 0;
             transition: all 0.3s ease;
         }
@@ -1453,10 +1469,6 @@
             color: #F84C1E;
         }
         
-        .dropdown-content a:hover {
-            background-color: #F84C1E;
-        }
-        
         footer a:hover {
             color: #F84C1E;
         }
@@ -1527,16 +1539,6 @@
             justify-content: center;
             text-align: center;
         }
-        
-        /* When the menu is open */
-        #mobile-menu.active {
-            z-index: 1001; /* Adjust as necessary */
-        }
-        
-        #nav-links {
-            display: none; /* Hide by default */
-            /* Add other styles as necessary */
-        }
         --- End of style.css ---
 current_events.html
     --- Start of current_events.html ---
@@ -1545,8 +1547,12 @@ current_events.html
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Casa Bolívar</title>
+        <title>Actividades 2024-25 | La Casa Bolívar</title>
+        <!-- Font Awesome for icons (if needed) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- Global CSS -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- Page-specific CSS -->
         <link rel="stylesheet" href="css/maintenance.css">
     </head>
     <body>
@@ -1554,7 +1560,7 @@ current_events.html
         <header>
             <div class="container">
                 <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                <div class="menu-toggle" id="mobile-menu">
+                <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -1576,7 +1582,7 @@ current_events.html
                             </div>
                         </li>
                         <li><a href="living.html">Vivir en La Casa</a></li>
-                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="current_events.html">Actividades 2024-25</a></li>
                         <li><a href="past_events.html">Eventos Pasados</a></li>
                         <li><a href="more.html">Más</a></li>
                     </ul>
@@ -1596,7 +1602,7 @@ current_events.html
         <!-- Footer Section -->
         <footer>
             <div class="container">
-                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
             </div>
         </footer>
     
@@ -1610,57 +1616,68 @@ current_events.html
         --- Start of residents.json ---
         [
           {
+            "name": "Anna Kriebel",
+            "role": "Asesor Residente",
+            "major": ["???"],
+            "year": "Cuarto",
+            "hometown": "???",
+            "bio": "(Bio corto va aqui)",
+            "interests": [""],
+            "image": "placeholder.jpg"
+          },
+          {
             "name": "Charles Melvin",
             "role": "Residente",
             "major": ["Ciencia Cognitiva", "Informática"],
             "year": "Tercero",
             "hometown": "Drybranch, WV, EE.UU.",
             "bio": "(Bio corto va aqui)",
-            "interests": ["Programación", "Videojuegos", "Correr"],
+            "interests": ["Programación", "Videojuegos", "Correr", "Cocinar"],
             "image": "sample.webp"
           },
           {
-            "name": "L",
-            "role": "Resident",
-            "major": ["None"],
-            "year": "Tenth",
-            "hometown": "Bajookieland",
-            "bio": "DUMMY",
-            "interests": ["Walking", "Parkour"],
-            "image": "placeholder.jpg"
-          },
-          {
-            "name": "John Doe",
-            "role": "Resident",
-            "major": ["Study Studies"],
-            "year": "Zeroth",
-            "hometown": "Bajonkistan",
-            "bio": "DUMMY",
-            "interests": ["None"],
-            "image": "placeholder.jpg"
-          },
-          {
-            "name": "Jane Doe",
-            "role": "Resident",
-            "major": ["Eating Studies"],
-            "year": "-First",
-            "hometown": "Mars",
-            "bio": "DUMMY",
-            "interests": ["Sitting", "Eating chairs", "Filbism"],
-            "image": "placeholder.jpg"
-          },
-          {
-            "name": "Filbus",
-            "role": "Transcendental Being",
-            "major": ["None"],
-            "year": "Infinitith",
+            "name": "Noel Sierra",
+            "role": "Residente",
+            "major": ["Informática"],
+            "year": "Tercero",
             "hometown": "???",
-            "bio": "DUMMY",
-            "interests": ["Spreading Filbism", "Eating chairs"],
-            "image": "filbus.webp"
+            "bio": "(Bio corto va aqui)",
+            "interests": [""],
+            "image": "placeholder.jpg"
+          },
+          {
+            "name": "David Peterson",
+            "role": "Residente",
+            "major": [""],
+            "year": "Cuarto",
+            "hometown": "???",
+            "bio": "(Bio corto va aqui)",
+            "interests": [""],
+            "image": "placeholder.jpg"
+          },
+          {
+            "name": "Cole Ellars",
+            "role": "Residente",
+            "major": ["???"],
+            "year": "Tercero",
+            "hometown": "???",
+            "bio": "(Bio corto va aqui)",
+            "interests": [""],
+            "image": "placeholder.jpg"
+          },
+          {
+            "name": "Laura Lee Baldwin",
+            "role": "Residente",
+            "major": ["???"],
+            "year": "Segundo",
+            "hometown": "Goochland, VA, EE.UU.",
+            "bio": "(Bio corto va aqui)",
+            "interests": [""],
+            "image": "placeholder.jpg"
           }
         ]
         --- End of residents.json ---
+file_tree_with_code_contents.txt
 [images]/
     casa-bolivar.jpg
     logo.jpg
@@ -1676,7 +1693,9 @@ index.html
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home | La Casa Bolívar</title>
+        <title>Principal | La Casa Bolívar</title>
+        <!-- Font Awesome for icons (if needed) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -1685,7 +1704,7 @@ index.html
         <header>
             <div class="container">
                 <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                <div class="menu-toggle" id="mobile-menu">
+                <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -1707,7 +1726,7 @@ index.html
                             </div>
                         </li>
                         <li><a href="living.html">Vivir en La Casa</a></li>
-                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="current_events.html">Actividades 2024-25</a></li>
                         <li><a href="past_events.html">Eventos Pasados</a></li>
                         <li><a href="more.html">Más</a></li>
                     </ul>
@@ -1730,6 +1749,10 @@ index.html
             </div>
         </section>
     
+        <main>
+    
+        </main>
+    
         <!-- Footer Section -->
         <footer>
             <div class="container">
@@ -1749,7 +1772,7 @@ index.html
                         <p>Email: <a href="mailto:jgm6jy@virginia.edu">jgm6jy@virginia.edu</a></p>
                     </div>
                 </div>
-                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                <p>&copy; 2024 La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
             </div>
         </footer>
         
@@ -1762,90 +1785,97 @@ index.html
     main.js
         --- Start of main.js ---
         // Toggle mobile menu
-        const mobileMenu = document.getElementById('mobile-menu');
-        const navLinks = document.getElementById('nav-links');
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navLinks = document.getElementById('nav-links');
         
-        mobileMenu.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
+            if (mobileMenu && navLinks) {
+                mobileMenu.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                    mobileMenu.classList.toggle('active');
+                });
+            }
         });
         --- End of main.js ---
     residents.js
         --- Start of residents.js ---
-        let residents = [];
-        let currentSlide = 0;
-        const slidesContainer = document.getElementById('residents-container');
-        const indicatorsContainer = document.getElementById('carousel-indicators');
+        document.addEventListener('DOMContentLoaded', () => {
+            let residents = [];
+            let currentSlide = 0;
+            const slidesContainer = document.getElementById('residents-container');
+            const indicatorsContainer = document.getElementById('carousel-indicators');
+            const prevButton = document.getElementById('prev');
+            const nextButton = document.getElementById('next');
         
-        // Fetch resident data
-        fetch('./data/residents.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+            // Fetch resident data
+            async function fetchResidents() {
+                try {
+                    const response = await fetch('./data/residents.json');
+                    if (!response.ok) {
+                        throw new Error(`Error al cargar los datos: ${response.status}`);
+                    }
+                    residents = await response.json();
+                    console.log('Datos cargados:', residents); // Debug log
+                    createResidentCards();
+                    createIndicators();
+                    showSlide(currentSlide);
+                } catch (error) {
+                    console.error('Error al cargar datos de residentes:', error);
+                    slidesContainer.innerHTML = '<p>Error al cargar los datos de los residentes. Por favor, inténtelo de nuevo más tarde.</p>';
                 }
-                return response.json();
-            })
-            .then(data => {
-                console.log('Data loaded:', data); // Debug log
-                residents = data;
-                createResidentCards();
-                createIndicators();
-                showSlide(currentSlide);
-            })
-            .catch(error => {
-                console.error('Error loading resident data:', error);
-                slidesContainer.innerHTML = '<p>Error loading resident data. Please try again later.</p>';
-            });
-        
-        function createResidentCards() {
-            residents.forEach((resident, index) => {
-                const card = document.createElement('div');
-                card.className = 'resident-card';
-                card.innerHTML = `
-                    <img src="images/residents/${resident.image}" alt="${resident.name}">
-                    <h3>${resident.name}</h3>
-                    <p>${resident.role}</p>
-                    <p><strong>Especialidad:</strong> ${resident.major.join(', ')}</p>
-                    <p><strong>Año:</strong> ${resident.year}</p>
-                    <p><strong>Natal:</strong> ${resident.hometown}</p>
-                    <p><strong>Intereses:</strong> ${resident.interests.join(', ')}</p>
-                    <p>${resident.bio}</p>
-                `;
-                slidesContainer.appendChild(card);
-            });
-        }
-        
-        function createIndicators() {
-            residents.forEach((_, index) => {
-                const indicator = document.createElement('span');
-                indicator.className = 'indicator';
-                indicator.onclick = () => showSlide(index);
-                indicatorsContainer.appendChild(indicator);
-            });
-        }
-        
-        function showSlide(n) {
-            const slides = document.querySelectorAll('.resident-card');
-            const indicators = document.querySelectorAll('.indicator');
-            
-            slides.forEach(slide => slide.style.display = 'none');
-            indicators.forEach(indicator => indicator.classList.remove('active'));
-            
-            currentSlide = (n + slides.length) % slides.length;
-            slides[currentSlide].style.display = 'block';
-            indicators[currentSlide].classList.add('active');
-        }
-        
-        document.getElementById('prev').addEventListener('click', () => showSlide(currentSlide - 1));
-        document.getElementById('next').addEventListener('click', () => showSlide(currentSlide + 1));
-        
-        // Initial setup
-        window.onload = () => {
-            if (residents.length > 0) {
-                createResidentCards();
-                createIndicators();
-                showSlide(currentSlide);
             }
-        };
+        
+            function createResidentCards() {
+                residents.forEach((resident, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'resident-card';
+                    card.innerHTML = `
+                        <img src="images/residents/${resident.image}" alt="Foto de ${resident.name}">
+                        <h3>${resident.name}</h3>
+                        <p>${resident.role}</p>
+                        <p><strong>Especialidad:</strong> ${resident.major.join(', ')}</p>
+                        <p><strong>Año:</strong> ${resident.year}</p>
+                        <p><strong>Natal:</strong> ${resident.hometown}</p>
+                        <p><strong>Intereses:</strong> ${resident.interests.join(', ')}</p>
+                        <p>${resident.bio}</p>
+                    `;
+                    slidesContainer.appendChild(card);
+                });
+            }
+        
+            function createIndicators() {
+                residents.forEach((_, index) => {
+                    const indicator = document.createElement('span');
+                    indicator.className = 'indicator';
+                    indicator.setAttribute('aria-label', `Mostrar residente ${index + 1}`);
+                    indicator.onclick = () => showSlide(index);
+                    indicatorsContainer.appendChild(indicator);
+                });
+            }
+        
+            function showSlide(n) {
+                const slides = document.querySelectorAll('.resident-card');
+                const indicators = document.querySelectorAll('.indicator');
+                
+                if (slides.length === 0) return;
+        
+                slides.forEach(slide => slide.style.display = 'none');
+                indicators.forEach(indicator => indicator.classList.remove('active'));
+                
+                currentSlide = (n + slides.length) % slides.length;
+                slides[currentSlide].style.display = 'block';
+                indicators[currentSlide].classList.add('active');
+            }
+        
+            // Event listeners for navigation buttons
+            if (prevButton && nextButton) {
+                prevButton.addEventListener('click', () => showSlide(currentSlide - 1));
+                nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
+            }
+        
+            // Initial setup
+            fetchResidents();
+        });
         --- End of residents.js ---
 living.html
     --- Start of living.html ---
@@ -1854,8 +1884,12 @@ living.html
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Casa Bolívar</title>
+        <title>Vivir en La Casa | La Casa Bolívar</title>
+        <!-- Font Awesome for icons (if needed) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- Global CSS -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- Page-specific CSS -->
         <link rel="stylesheet" href="css/maintenance.css">
     </head>
     <body>
@@ -1863,7 +1897,7 @@ living.html
         <header>
             <div class="container">
                 <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                <div class="menu-toggle" id="mobile-menu">
+                <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -1885,7 +1919,7 @@ living.html
                             </div>
                         </li>
                         <li><a href="living.html">Vivir en La Casa</a></li>
-                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="current_events.html">Actividades 2024-25</a></li>
                         <li><a href="past_events.html">Eventos Pasados</a></li>
                         <li><a href="more.html">Más</a></li>
                     </ul>
@@ -1905,7 +1939,7 @@ living.html
         <!-- Footer Section -->
         <footer>
             <div class="container">
-                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
             </div>
         </footer>
     
@@ -1921,8 +1955,12 @@ more.html
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Casa Bolívar</title>
+        <title>Más | La Casa Bolívar</title>
+        <!-- Font Awesome for icons (if needed) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- Global CSS -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- Page-specific CSS -->
         <link rel="stylesheet" href="css/maintenance.css">
     </head>
     <body>
@@ -1930,7 +1968,7 @@ more.html
         <header>
             <div class="container">
                 <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                <div class="menu-toggle" id="mobile-menu">
+                <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -1952,7 +1990,7 @@ more.html
                             </div>
                         </li>
                         <li><a href="living.html">Vivir en La Casa</a></li>
-                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="current_events.html">Actividades 2024-25</a></li>
                         <li><a href="past_events.html">Eventos Pasados</a></li>
                         <li><a href="more.html">Más</a></li>
                     </ul>
@@ -1972,7 +2010,7 @@ more.html
         <!-- Footer Section -->
         <footer>
             <div class="container">
-                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
             </div>
         </footer>
     
@@ -1988,8 +2026,12 @@ past_events.html
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Casa Bolívar</title>
+        <title>Eventos Pasados | La Casa Bolívar</title>
+        <!-- Font Awesome for icons (if needed) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- Global CSS -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- Page-specific CSS -->
         <link rel="stylesheet" href="css/maintenance.css">
     </head>
     <body>
@@ -1997,7 +2039,7 @@ past_events.html
         <header>
             <div class="container">
                 <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                <div class="menu-toggle" id="mobile-menu">
+                <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -2019,7 +2061,7 @@ past_events.html
                             </div>
                         </li>
                         <li><a href="living.html">Vivir en La Casa</a></li>
-                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="current_events.html">Actividades 2024-25</a></li>
                         <li><a href="past_events.html">Eventos Pasados</a></li>
                         <li><a href="more.html">Más</a></li>
                     </ul>
@@ -2039,7 +2081,7 @@ past_events.html
         <!-- Footer Section -->
         <footer>
             <div class="container">
-                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
             </div>
         </footer>
     
@@ -2059,6 +2101,8 @@ residents.html
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Conocer a los Residentes | La Casa Bolívar</title>
         
+        <!-- Font Awesome for icons (if needed) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <!-- Global CSS -->
         <link rel="stylesheet" href="css/style.css">
     
@@ -2071,7 +2115,7 @@ residents.html
         <header>
             <div class="container">
                 <!-- Hamburger Menu Button (Visible in Mobile View) -->
-                <div class="menu-toggle" id="mobile-menu">
+                <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -2083,7 +2127,7 @@ residents.html
                         <li><a href="index.html">Principal</a></li>
                         <li><a href="residents.html" class="active">Conocer a los Residentes</a></li>
                         <li class="dropdown">
-                            <span class="dropbtn">Sobre</=>
+                            <span class="dropbtn">Sobre</span>
                             <div class="dropdown-content">
                                 <a href="about_menu/about_us.html">Sobre Nosotros</a>
                                 <a href="about_menu/address.html">Dirección</a>
@@ -2093,7 +2137,7 @@ residents.html
                             </div>
                         </li>
                         <li><a href="living.html">Vivir en La Casa</a></li>
-                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="current_events.html">Actividades 2024-25</a></li>
                         <li><a href="past_events.html">Eventos Pasados</a></li>
                         <li><a href="more.html">Más</a></li>
                     </ul>
@@ -2111,8 +2155,8 @@ residents.html
     
             <section class="residents-carousel">
                 <div class="carousel-container">
-                    <div class="carousel-control left" id="prev" aria-label="Previous resident">&#10094;</button>
-                    <div class="carousel-control right" id="next" aria-label="Next resident">&#10095;</button>
+                    <button class="carousel-control left" id="prev" aria-label="Anterior residente">&#10094;</button>
+                    <button class="carousel-control right" id="next" aria-label="Siguiente residente">&#10095;</button>
     
                     <div id="residents-container">
                         <!-- Resident cards will be dynamically inserted here -->
@@ -2128,7 +2172,7 @@ residents.html
         <!-- Global Footer -->
         <footer>
             <div class="container">
-                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                <p>&copy; 2024 La Casa Bolívar. University of Virginia. Todos los Derechos Reservados/All Rights Reserved.</p>
             </div>
         </footer>
         
