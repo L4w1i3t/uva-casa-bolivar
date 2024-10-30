@@ -1,112 +1,148 @@
-/* Carousel Styles */
-.carousel {
-    background-color: #fff;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+/* Residents Page Styles */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.residents-intro {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.residents-intro h2 {
+    font-size: 2.5rem;
+    color: #232D4B;
+    margin-bottom: 20px;
+}
+
+.residents-intro p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.residents-carousel {
+    padding: 40px 0;
+}
+
+.residents-carousel h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #232D4B;
+    margin-bottom: 30px;
 }
 
 .carousel-container {
     position: relative;
-    width: 100%;
-    max-width: 90vw;  /* Maximum width for large screens */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.resident {
-    display: none;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.resident.active {
-    display: flex;
-}
-
-/* Dynamic Photo Sizing */
-.resident-photo .photo-frame {
-    width: 35vw;   /* 35% of the viewport width */
-    height: 35vw;  /* Keep the height equal to the width for a square */
-    background-color: #ffffff;
-    border: 2px solid #000000;
+    max-width: 800px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;  /* Ensure any overflow is hidden */
-    position: relative; /* Enable positioning of previous and next images */
 }
 
-.resident-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;  /* Crop the image to cover the entire frame */
-}
-
-.resident-info {
-    margin-top: 30px;
-    padding: 0 20px;  /* Add padding to prevent text from touching edges */
-    max-width: 60vw;
-}
-
-.resident-info h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+.resident-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
     text-align: center;
-    border-bottom: 2px solid #000;  /* Add a black border below the name */
-    display: inline-block;  /* Make the border fit the name width */
-    padding-bottom: 5px;  /* Add a little space between name and border */
+    display: none;
 }
 
-/* Carousel Controls */
+.resident-card.active {
+    display: block;
+}
+
+.resident-card img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #000000;
+}
+
+.resident-card img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.resident-card h3 {
+    font-size: 1.5rem;
+    color: #232D4B;
+    margin-bottom: 10px;
+}
+
+.resident-card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.resident-card p strong {
+    color: #232D4B;
+}
+
 .carousel-control {
     position: absolute;
-    top: 30vh;
+    top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: #F84C1E;
+    color: #fff;
     border: none;
-    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
     cursor: pointer;
-    font-size: 2rem;
-    z-index: 1;
-}
-
-.carousel-control.left {
-    left: 10px;   /* Move button closer to the left edge */
-}
-
-.carousel-control.right {
-    right: 10px;  /* Move button closer to the right edge */
+    transition: background-color 0.3s;
 }
 
 .carousel-control:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #232D4B;
 }
 
-/* Responsive Adjustments */
+.carousel-control.left {
+    left: -60px;
+}
+
+.carousel-control.right {
+    right: -60px;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.indicator.active {
+    background-color: #F84C1E;
+}
+
 @media (max-width: 768px) {
-    .resident-photo .photo-frame {
-        width: 70vw;  /* Scale larger for smaller screens */
-        height: 70vw;
+    .carousel-control {
+        display: none;
     }
 
-    .resident-info {
-        padding: 0 10px;
+    .resident-card {
+        padding: 20px;
     }
 
-    .carousel-control.left {
-        left: 5px;
-    }
-
-    .carousel-control.right {
-        right: 5px;
+    .resident-card img {
+        width: 300px;
+        height: 300px;
     }
 }

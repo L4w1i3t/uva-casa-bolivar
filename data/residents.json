@@ -1,14 +1,52 @@
-{
-    "residents": [
-      {
-        "name": "Charles Melvin",
-        "photo": "images/sample.webp",
-        "bio": "[insert bio here]"
-      },
-      {
-        "name": "John Doe",
-        "photo": "images/sample.webp",
-        "bio": "[insert bio here]"
-      }
-    ]
+[
+  {
+    "name": "Charles Melvin",
+    "role": "Resident",
+    "major": ["Cognitive Science", "Computer Science"],
+    "year": "Three",
+    "hometown": "Drybranch, WV",
+    "bio": "DUMMY",
+    "interests": ["Programming", "Gaming"],
+    "image": "sample.webp"
+  },
+  {
+    "name": "L",
+    "role": "Resident",
+    "major": ["None"],
+    "year": "Tenth",
+    "hometown": "Bajookieland",
+    "bio": "DUMMY",
+    "interests": ["Walking", "Parkour"],
+    "image": "placeholder.jpg"
+  },
+  {
+    "name": "John Doe",
+    "role": "Resident",
+    "major": ["Study Studies"],
+    "year": "Zeroth",
+    "hometown": "Bajonkistan",
+    "bio": "DUMMY",
+    "interests": ["None"],
+    "image": "placeholder.jpg"
+  },
+  {
+    "name": "Jane Doe",
+    "role": "Resident",
+    "major": ["Eating Studies"],
+    "year": "-First",
+    "hometown": "Mars",
+    "bio": "DUMMY",
+    "interests": ["Sitting", "Eating chairs", "Filbism"],
+    "image": "placeholder.jpg"
+  },
+  {
+    "name": "Filbus",
+    "role": "Transcendental Being",
+    "major": ["None"],
+    "year": "Infinitith",
+    "hometown": "???",
+    "bio": "DUMMY",
+    "interests": ["Spreading Filbism", "Eating chairs"],
+    "image": "filbus.webp"
   }
+]

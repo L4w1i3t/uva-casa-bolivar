@@ -49,53 +49,29 @@
         </div>
     </header>
 
-    <!-- Carousel Section for Residents -->
-    <section class="carousel">
-        <div class="carousel-container">
-            <div class="resident active">
-                <div class="resident-photo">
-                    <!-- Resident Photo -->
-                    <div class="photo-frame">
-                        <img src="images/sample.webp" alt="Charles Melvin-sample">
-                    </div>
-                </div>
-                <div class="resident-info">
-                    <h2>Perr Sohn</h2>
-                    <p>[insert bio here]</p>
+    <main>
+        <section class="residents-intro">
+            <div class="container">
+                <h2>Nuestros Residentes</h2>
+                <p>Conoce a los estudiantes que viven en La Casa Bolívar durante el año académico 2023-2024.</p>
+            </div>
+        </section>
+
+        <section class="residents-carousel">
+            <div class="carousel-container">
+                <button class="carousel-control left" id="prev" aria-label="Previous resident">&#10094;</button>
+                <button class="carousel-control right" id="next" aria-label="Next resident">&#10095;</button>
+
+                <div id="residents-container">
+                    <!-- Resident cards will be dynamically inserted here -->
                 </div>
             </div>
 
-            <div class="resident">
-                <div class="resident-photo">
-                    <!-- Placeholder for Resident Photo -->
-                    <div class="photo-frame">
-                        <img src="images/placeholder.jpg" alt="placeholder">
-                    </div>
-                </div>
-                <div class="resident-info">
-                    <h2>John Doe</h2>
-                    <p>[insert bio here]</p>
-                </div>
+            <div class="carousel-indicators" id="carousel-indicators">
+                <!-- Indicators will be dynamically inserted here -->
             </div>
-
-            <div class="resident">
-                <div class="resident-photo">
-                    <!-- Placeholder for Resident Photo -->
-                    <div class="photo-frame">
-                        <img src="images/placeholder.jpg" alt="placeholder">
-                    </div>
-                </div>
-                <div class="resident-info">
-                    <h2>Jane Doe</h2>
-                    <p>[insert bio here]</p>
-                </div>
-            </div>
-
-            <!-- Carousel Controls (Left and Right Arrows) -->
-            <button class="carousel-control left" id="prev">&#10094;</button>
-            <button class="carousel-control right" id="next">&#10095;</button>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Global Footer -->
     <footer>
