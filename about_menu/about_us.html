@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Casa Bolívar</title>
+    <title>Sobre Nosotros | La Casa Bolívar</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Global CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="css/about_us.css"> <!-- Page-specific CSS -->
+    <!-- Page-specific CSS -->
+    <link rel="stylesheet" href="css/about_us.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <div class="container">
-            <h1>La Casa Bolívar</h1>
-            <div class="menu-toggle" id="mobile-menu">
-                <span></span><span></span><span></span>
+            <!-- Hamburger Menu Button (Visible in Mobile View) -->
+            <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+
             <nav>
                 <ul id="nav-links">
                     <li><a href="../index.html">Principal</a></li>
@@ -39,42 +46,77 @@
     </header>
 
     <!-- Main Content Area -->
-    <main>
-        <!-- Introduction Section -->
-        <section class="intro">
-            <h2>¿Qué somos?</h2>
-            <p>[Placeholder text for basic info]</p>
-        </section>
+    <main class="about-us-container">
+        <h1>Sobre Nosotros</h1>
+        
+        <div class="content-wrapper">
+            <div class="main-content">
+                <section class="about-section">
+                    <h2><i class="fas fa-info-circle"></i> ¿Qué somos?</h2>
+                    <p>[Placeholder text para información básica]</p>
+                </section>
 
-        <!-- Activities Section -->
-        <section class="activities">
-            <h2>¿Qué Hacemos?</h2>
-            <p>[Placeholder text outlining typical activities and engagement in the house]</p>
-        </section>
+                <section class="about-section">
+                    <h2><i class="fas fa-tasks"></i> ¿Qué Hacemos?</h2>
+                    <p>[Placeholder text describiendo actividades típicas y compromisos en la casa]</p>
+                </section>
 
-        <!-- Mission Section -->
-        <section class="mission">
-            <h2>Nuestra Misión</h2>
-            <p>[Placeholder text for mission statement]</p>
-        </section>
+                <section class="about-section">
+                    <h2><i class="fas fa-bullseye"></i> Nuestra Misión</h2>
+                    <p>[Placeholder text para la declaración de misión]</p>
+                </section>
 
-        <!-- Purpose Section -->
-        <section class="purpose">
-            <h2>Nuestro Propósito</h2>
-            <p>[Placeholder text for purpose and goals]</p>
-        </section>
+                <section class="about-section">
+                    <h2><i class="fas fa-flag"></i> Nuestro Propósito</h2>
+                    <p>[Placeholder text para el propósito y objetivos]</p>
+                </section>
 
-        <!-- Additional Information Section -->
-        <section class="history">
-            <h2>Historia y Comunidad</h2>
-            <p>[Placeholder text on the history and its community impact]</p>
-        </section>
+                <section class="about-section">
+                    <h2><i class="fas fa-history"></i> Historia y Comunidad</h2>
+                    <p>[Placeholder text sobre la historia y su impacto en la comunidad]</p>
+                </section>
+            </div>
+
+            <aside class="sidebar">
+                <section class="testimonials">
+                    <h2><i class="fas fa-quote-left"></i> Testimonios</h2>
+                    <div class="testimonial">
+                        <blockquote>"Yaint"</blockquote>
+                        <cite>- John Doe, Residente 20XX</cite>
+                    </div>
+                    <!-- Agrega más testimonios según sea necesario -->
+                </section>
+
+                <section class="photo-gallery">
+                    <h2><i class="fas fa-camera"></i> Galería de Fotos</h2>
+                    <div class="gallery-container">
+                        <img src="../images/image1.jpg" alt="Evento en Casa Bolívar">
+                        <img src="../images/image2.jpg" alt="Residentes de Casa Bolívar">
+                        <img src="../images/image3.jpg" alt="Edificio de Casa Bolívar">
+                        <!-- Agrega más imágenes según sea necesario -->
+                    </div>
+                </section>
+
+                <section class="faq">
+                    <h2><i class="fas fa-question-circle"></i> Preguntas Frecuentes</h2>
+                    <details>
+                        <summary>¿Cómo puedo aplicar para vivir en Casa Bolívar?</summary>
+                        <p>[Respuesta al proceso de aplicación]</p>
+                    </details>
+                    <details>
+                        <summary>¿Qué actividades se organizan en Casa Bolívar?</summary>
+                        <p>[Respuesta sobre actividades y eventos]</p>
+                    </details>
+                    <!-- Agrega más ítems de FAQ según sea necesario -->
+                </section>
+            </aside>
+        </div>
     </main>
 
     <!-- Footer Section -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+            <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. Todos los Derechos Reservados.</p>
         </div>
     </footer>
 

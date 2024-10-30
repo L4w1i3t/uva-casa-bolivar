@@ -1,75 +1,77 @@
-let residents = [];
-let currentSlide = 0;
-const slidesContainer = document.getElementById('residents-container');
-const indicatorsContainer = document.getElementById('carousel-indicators');
+document.addEventListener('DOMContentLoaded', () => {
+    let residents = [];
+    let currentSlide = 0;
+    const slidesContainer = document.getElementById('residents-container');
+    const indicatorsContainer = document.getElementById('carousel-indicators');
+    const prevButton = document.getElementById('prev');
+    const nextButton = document.getElementById('next');
 
-// Fetch resident data
-fetch('./data/residents.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+    // Fetch resident data
+    async function fetchResidents() {
+        try {
+            const response = await fetch('./data/residents.json');
+            if (!response.ok) {
+                throw new Error(`Error al cargar los datos: ${response.status}`);
+            }
+            residents = await response.json();
+            console.log('Datos cargados:', residents); // Debug log
+            createResidentCards();
+            createIndicators();
+            showSlide(currentSlide);
+        } catch (error) {
+            console.error('Error al cargar datos de residentes:', error);
+            slidesContainer.innerHTML = '<p>Error al cargar los datos de los residentes. Por favor, inténtelo de nuevo más tarde.</p>';
         }
-        return response.json();
-    })
-    .then(data => {
-        console.log('Data loaded:', data); // Debug log
-        residents = data;
-        createResidentCards();
-        createIndicators();
-        showSlide(currentSlide);
-    })
-    .catch(error => {
-        console.error('Error loading resident data:', error);
-        slidesContainer.innerHTML = '<p>Error loading resident data. Please try again later.</p>';
-    });
-
-function createResidentCards() {
-    residents.forEach((resident, index) => {
-        const card = document.createElement('div');
-        card.className = 'resident-card';
-        card.innerHTML = `
-            <img src="images/residents/${resident.image}" alt="${resident.name}">
-            <h3>${resident.name}</h3>
-            <p>${resident.role}</p>
-            <p><strong>Major:</strong> ${resident.major.join(', ')}</p>
-            <p><strong>Year:</strong> ${resident.year}</p>
-            <p><strong>Hometown:</strong> ${resident.hometown}</p>
-            <p>${resident.bio}</p>
-            <p><strong>Interests:</strong> ${resident.interests.join(', ')}</p>
-        `;
-        slidesContainer.appendChild(card);
-    });
-}
-
-function createIndicators() {
-    residents.forEach((_, index) => {
-        const indicator = document.createElement('span');
-        indicator.className = 'indicator';
-        indicator.onclick = () => showSlide(index);
-        indicatorsContainer.appendChild(indicator);
-    });
-}
-
-function showSlide(n) {
-    const slides = document.querySelectorAll('.resident-card');
-    const indicators = document.querySelectorAll('.indicator');
-    
-    slides.forEach(slide => slide.style.display = 'none');
-    indicators.forEach(indicator => indicator.classList.remove('active'));
-    
-    currentSlide = (n + slides.length) % slides.length;
-    slides[currentSlide].style.display = 'block';
-    indicators[currentSlide].classList.add('active');
-}
-
-document.getElementById('prev').addEventListener('click', () => showSlide(currentSlide - 1));
-document.getElementById('next').addEventListener('click', () => showSlide(currentSlide + 1));
-
-// Initial setup
-window.onload = () => {
-    if (residents.length > 0) {
-        createResidentCards();
-        createIndicators();
-        showSlide(currentSlide);
     }
-};
+
+    function createResidentCards() {
+        residents.forEach((resident, index) => {
+            const card = document.createElement('div');
+            card.className = 'resident-card';
+            card.innerHTML = `
+                <img src="images/residents/${resident.image}" alt="Foto de ${resident.name}">
+                <h3>${resident.name}</h3>
+                <p>${resident.role}</p>
+                <p><strong>Especialidad:</strong> ${resident.major.join(', ')}</p>
+                <p><strong>Año:</strong> ${resident.year}</p>
+                <p><strong>Natal:</strong> ${resident.hometown}</p>
+                <p><strong>Intereses:</strong> ${resident.interests.join(', ')}</p>
+                <p>${resident.bio}</p>
+            `;
+            slidesContainer.appendChild(card);
+        });
+    }
+
+    function createIndicators() {
+        residents.forEach((_, index) => {
+            const indicator = document.createElement('span');
+            indicator.className = 'indicator';
+            indicator.setAttribute('aria-label', `Mostrar residente ${index + 1}`);
+            indicator.onclick = () => showSlide(index);
+            indicatorsContainer.appendChild(indicator);
+        });
+    }
+
+    function showSlide(n) {
+        const slides = document.querySelectorAll('.resident-card');
+        const indicators = document.querySelectorAll('.indicator');
+        
+        if (slides.length === 0) return;
+
+        slides.forEach(slide => slide.style.display = 'none');
+        indicators.forEach(indicator => indicator.classList.remove('active'));
+        
+        currentSlide = (n + slides.length) % slides.length;
+        slides[currentSlide].style.display = 'block';
+        indicators[currentSlide].classList.add('active');
+    }
+
+    // Event listeners for navigation buttons
+    if (prevButton && nextButton) {
+        prevButton.addEventListener('click', () => showSlide(currentSlide - 1));
+        nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
+    }
+
+    // Initial setup
+    fetchResidents();
+});

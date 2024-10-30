@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conocer a los Residentes | La Casa Bolívar</title>
     
+    <!-- Font Awesome for icons (if needed) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Global CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -16,10 +18,8 @@
     <!-- Header Section -->
     <header>
         <div class="container">
-            <h1>La Casa Bolívar</h1>
-
             <!-- Hamburger Menu Button (Visible in Mobile View) -->
-            <div class="menu-toggle" id="mobile-menu">
+            <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -31,7 +31,7 @@
                     <li><a href="index.html">Principal</a></li>
                     <li><a href="residents.html" class="active">Conocer a los Residentes</a></li>
                     <li class="dropdown">
-                        <span class="dropbtn">Sobre</=>
+                        <span class="dropbtn">Sobre</span>
                         <div class="dropdown-content">
                             <a href="about_menu/about_us.html">Sobre Nosotros</a>
                             <a href="about_menu/address.html">Dirección</a>
@@ -59,8 +59,8 @@
 
         <section class="residents-carousel">
             <div class="carousel-container">
-                <button class="carousel-control left" id="prev" aria-label="Previous resident">&#10094;</button>
-                <button class="carousel-control right" id="next" aria-label="Next resident">&#10095;</button>
+                <button class="carousel-control left" id="prev" aria-label="Anterior residente">&#10094;</button>
+                <button class="carousel-control right" id="next" aria-label="Siguiente residente">&#10095;</button>
 
                 <div id="residents-container">
                     <!-- Resident cards will be dynamically inserted here -->
@@ -76,7 +76,7 @@
     <!-- Global Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+            <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. Todos los Derechos Reservados.</p>
         </div>
     </footer>
     

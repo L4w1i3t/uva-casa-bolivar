@@ -1,52 +1,62 @@
 [
   {
+    "name": "Anna Kriebel",
+    "role": "Asesor Residente",
+    "major": ["???"],
+    "year": "Cuarto",
+    "hometown": "???",
+    "bio": "(Bio corto va aqui)",
+    "interests": [""],
+    "image": "placeholder.jpg"
+  },
+  {
     "name": "Charles Melvin",
-    "role": "Resident",
-    "major": ["Cognitive Science", "Computer Science"],
-    "year": "Three",
-    "hometown": "Drybranch, WV",
-    "bio": "DUMMY",
-    "interests": ["Programming", "Gaming"],
+    "role": "Residente",
+    "major": ["Ciencia Cognitiva", "Informática"],
+    "year": "Tercero",
+    "hometown": "Drybranch, WV, EE.UU.",
+    "bio": "(Bio corto va aqui)",
+    "interests": ["Programación", "Videojuegos", "Correr", "Cocinar"],
     "image": "sample.webp"
   },
   {
-    "name": "L",
-    "role": "Resident",
-    "major": ["None"],
-    "year": "Tenth",
-    "hometown": "Bajookieland",
-    "bio": "DUMMY",
-    "interests": ["Walking", "Parkour"],
-    "image": "placeholder.jpg"
-  },
-  {
-    "name": "John Doe",
-    "role": "Resident",
-    "major": ["Study Studies"],
-    "year": "Zeroth",
-    "hometown": "Bajonkistan",
-    "bio": "DUMMY",
-    "interests": ["None"],
-    "image": "placeholder.jpg"
-  },
-  {
-    "name": "Jane Doe",
-    "role": "Resident",
-    "major": ["Eating Studies"],
-    "year": "-First",
-    "hometown": "Mars",
-    "bio": "DUMMY",
-    "interests": ["Sitting", "Eating chairs", "Filbism"],
-    "image": "placeholder.jpg"
-  },
-  {
-    "name": "Filbus",
-    "role": "Transcendental Being",
-    "major": ["None"],
-    "year": "Infinitith",
+    "name": "Noel Sierra",
+    "role": "Residente",
+    "major": ["Informática"],
+    "year": "Tercero",
     "hometown": "???",
-    "bio": "DUMMY",
-    "interests": ["Spreading Filbism", "Eating chairs"],
-    "image": "filbus.webp"
+    "bio": "(Bio corto va aqui)",
+    "interests": [""],
+    "image": "placeholder.jpg"
+  },
+  {
+    "name": "David Peterson",
+    "role": "Residente",
+    "major": [""],
+    "year": "Cuarto",
+    "hometown": "???",
+    "bio": "(Bio corto va aqui)",
+    "interests": [""],
+    "image": "placeholder.jpg"
+  },
+  {
+    "name": "Cole Ellars",
+    "role": "Residente",
+    "major": ["???"],
+    "year": "Tercero",
+    "hometown": "???",
+    "bio": "(Bio corto va aqui)",
+    "interests": [""],
+    "image": "placeholder.jpg"
+  },
+  {
+    "name": "Laura Lee Baldwin",
+    "role": "Residente",
+    "major": ["???"],
+    "year": "Segundo",
+    "hometown": "Goochland, VA, EE.UU.",
+    "bio": "(Bio corto va aqui)",
+    "interests": [""],
+    "image": "placeholder.jpg"
   }
 ]

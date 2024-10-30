@@ -1,0 +1,2142 @@
+[about_menu]/
+    about_us.html
+        --- Start of about_us.html ---
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>La Casa Bolívar</title>
+            <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="css/about_us.css"> <!-- Page-specific CSS -->
+        </head>
+        <body>
+            <!-- Header Section -->
+            <header>
+                <div class="container">
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <nav>
+                        <ul id="nav-links">
+                            <li><a href="../index.html">Principal</a></li>
+                            <li><a href="../residents.html">Conocer a los Residentes</a></li>
+                            <li class="dropdown">
+                                <span class="dropbtn">Sobre</span>
+                                <div class="dropdown-content">
+                                    <a href="about_us.html">Sobre Nosotros</a>
+                                    <a href="address.html">Dirección</a>
+                                    <a href="social_media.html">Redes Sociales</a>
+                                    <a href="director.html">Director</a>
+                                    <a href="contact.html">Contacto</a>
+                                </div>
+                            </li>
+                            <li><a href="../living.html">Vivir en La Casa</a></li>
+                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../past_events.html">Eventos Pasados</a></li>
+                            <li><a href="../more.html">Más</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        
+            <!-- Main Content Area -->
+            <main class="about-us-container">
+                <h1>Sobre Nosotros</h1>
+                
+                <div class="content-wrapper">
+                    <div class="main-content">
+                        <section class="about-section">
+                            <h2><i class="fas fa-info-circle"></i> ¿Qué somos?</h2>
+                            <p>[Placeholder text for basic info]</p>
+                        </section>
+            
+                        <section class="about-section">
+                            <h2><i class="fas fa-tasks"></i> ¿Qué Hacemos?</h2>
+                            <p>[Placeholder text outlining typical activities and engagement in the house]</p>
+                        </section>
+            
+                        <section class="about-section">
+                            <h2><i class="fas fa-bullseye"></i> Nuestra Misión</h2>
+                            <p>[Placeholder text for mission statement]</p>
+                        </section>
+            
+                        <section class="about-section">
+                            <h2><i class="fas fa-flag"></i> Nuestro Propósito</h2>
+                            <p>[Placeholder text for purpose and goals]</p>
+                        </section>
+            
+                        <section class="about-section">
+                            <h2><i class="fas fa-history"></i> Historia y Comunidad</h2>
+                            <p>[Placeholder text on the history and its community impact]</p>
+                        </section>
+                    </div>
+            
+                    <aside class="sidebar">
+                        <section class="testimonials">
+                            <h2><i class="fas fa-quote-left"></i> Testimonios</h2>
+                            <div class="testimonial">
+                                <blockquote>"Yaint"</blockquote>
+                                <cite>- John Doe, Resident 20XX</cite>
+                            </div>
+                            <!-- Add more testimonials as needed -->
+                        </section>
+            
+                        <section class="photo-gallery">
+                            <h2><i class="fas fa-camera"></i> Galería de Fotos</h2>
+                            <div class="gallery-container">
+                                <img src="path/to/image1.jpg" alt="Casa Bolivar Event">
+                                <img src="path/to/image2.jpg" alt="Casa Bolivar Residents">
+                                <img src="path/to/image3.jpg" alt="Casa Bolivar Building">
+                                <!-- Add more images as needed -->
+                            </div>
+                        </section>
+            
+                        <section class="faq">
+                            <h2><i class="fas fa-question-circle"></i> Preguntas Frecuentes</h2>
+                            <details>
+                                <summary>¿Cómo puedo aplicar para vivir en Casa Bolivar?</summary>
+                                <p>[Answer to the application process]</p>
+                            </details>
+                            <details>
+                                <summary>¿Qué actividades se organizan en Casa Bolivar?</summary>
+                                <p>[Answer about activities and events]</p>
+                            </details>
+                            <!-- Add more FAQ items as needed -->
+                        </section>
+                    </aside>
+                </div>
+            </main>
+        
+            <!-- Footer Section -->
+            <footer>
+                <div class="container">
+                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                </div>
+            </footer>
+        
+            <!-- JavaScript for Menu Toggle -->
+            <script src="../js/main.js"></script>
+        </body>
+        </html>
+        --- End of about_us.html ---
+    address.html
+        --- Start of address.html ---
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>La Casa Bolívar</title>
+            <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="css/address.css">
+        </head>
+        <body>
+            <!-- Header Section -->
+            <header>
+                <div class="container">
+                    <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+        
+                    <!-- Navigation with Dropdown -->
+                    <nav>
+                        <ul id="nav-links">
+                            <li><a href="../index.html">Principal</a></li>
+                            <li><a href="../residents.html">Conocer a los Residentes</a></li>
+                            <li class="dropdown">
+                                <span class="dropbtn">Sobre</span>
+                                <div class="dropdown-content">
+                                    <a href="about_us.html">Sobre Nosotros</a>
+                                    <a href="address.html">Dirección</a>
+                                    <a href="social_media.html">Redes Sociales</a>
+                                    <a href="director.html">Director</a>
+                                    <a href="contact.html">Contacto</a>
+                                </div>
+                            </li>
+                            <li><a href="../living.html">Vivir en La Casa</a></li>
+                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../past_events.html">Eventos Pasados</a></li>
+                            <li><a href="../more.html">Más</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        
+            <!-- Main Content Area -->
+            <main>
+                <section class="address-content">
+                    <div class="container">
+                        <h2>Nuestra Ubicación</h2>
+                        <div class="address-info">
+                            <div class="mailing-address">
+                                <h3>Dirección Postal</h3>
+                                <div class="address-card">
+                                    <p><strong>La Casa Bolívar</strong></p>
+                                    <p>1408 Jefferson Park Ave</p>
+                                    <p>Charlottesville, VA 22903</p>
+                                    <p>Estados Unidos</p>
+                                </div>
+                            </div>
+                            <div class="map-embed">
+                                <h3>Mapa</h3>
+                                <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.660304555377!2d-78.50499048797073!3d38.031698071804655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b386469584ccc9%3A0xa077e13ad32d146c!2sCasa%20Bolivar%20(Spanish%20House)%2C%201408%20Jefferson%20Park%20Ave%2C%20Charlottesville%2C%20VA%2022903!5e0!3m2!1sen!2sus!4v1730234973679!5m2!1sen!2sus"
+                                    width="600" 
+                                    height="450" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        
+            <!-- Footer Section -->
+            <footer>
+                <div class="container">
+                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                </div>
+            </footer>
+        
+            <!-- JavaScript to Handle the Hamburger Menu -->
+            <script src="../js/main.js"></script>
+        </body>
+        </html>
+        --- End of address.html ---
+    contact.html
+        --- Start of contact.html ---
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>La Casa Bolívar</title>
+            <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="css/contact.css">
+        </head>
+        <body>
+            <!-- Header Section -->
+            <header>
+                <div class="container">
+                    <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+        
+                    <!-- Navigation with Dropdown -->
+                    <nav>
+                        <ul id="nav-links">
+                            <li><a href="../index.html">Principal</a></li>
+                            <li><a href="../residents.html">Conocer a los Residentes</a></li>
+                            <li class="dropdown">
+                                <span class="dropbtn">Sobre</span>
+                                <div class="dropdown-content">
+                                    <a href="about_us.html">Sobre Nosotros</a>
+                                    <a href="address.html">Dirección</a>
+                                    <a href="social_media.html">Redes Sociales</a>
+                                    <a href="director.html">Director</a>
+                                    <a href="contact.html">Contacto</a>
+                                </div>
+                            </li>
+                            <li><a href="../living.html">Vivir en La Casa</a></li>
+                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../past_events.html">Eventos Pasados</a></li>
+                            <li><a href="../more.html">Más</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        
+            <!-- Main Content Area -->
+            <main>
+                <section class="contact-content">
+                    <div class="container">
+                        <h2>Contacto</h2>
+                        <div class="contact-info">
+                            <div class="contact-person">
+                                <img src="../images/placeholder.jpg" alt="Charles Melvin" class="contact-image">
+                                <h3>Charles Melvin</h3>
+                                <p class="occupation">Administrador del Sitio</p>
+                                <p class="sub-occupation"></p>
+                                <p><strong>Email:</strong> <a href="mailto:jgm6jy@virginia.edu">jgm6jy@virginia.edu</a></p>
+                            </div>
+                            <div class="contact-person">
+                                <img src="../images/placeholder.jpg" alt="Nieves Prados Garcia" class="contact-image">
+                                <h3>Nieves Prados Garcia</h3>
+                                <p class="occupation">Instructora Principal</p>
+                                <p class="sub-occupation"></p>
+                                <p><strong>Email:</strong> <a href="mailto:mdg4xf@virginia.edu">mdg4xf@virginia.edu</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        
+            <!-- Footer Section -->
+            <footer>
+                <div class="container">
+                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                </div>
+            </footer>
+        
+            <!-- JavaScript to Handle the Hamburger Menu -->
+            <script src="../js/main.js"></script>
+        </body>
+        </html>
+        --- End of contact.html ---
+    [css]/
+        about_us.css
+            --- Start of about_us.css ---
+            .about-us-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+            
+            .about-us-container h1 {
+                color: #232D4B;
+                text-align: center;
+                margin-bottom: 2rem;
+                font-size: 2.5rem;
+            }
+            
+            .content-wrapper {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .main-content, .sidebar {
+                width: 100%;
+            }
+            
+            .about-section, .testimonials, .photo-gallery, .faq {
+                margin-bottom: 2rem;
+                padding: 1.5rem;
+                background-color: #f8f8f8;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            
+            .about-section h2, .sidebar h2 {
+                color: #232D4B;
+                font-size: 1.8rem;
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+            }
+            
+            .about-section h2 i, .sidebar h2 i {
+                margin-right: 0.5rem;
+                color: #F84C1E;
+            }
+            
+            .about-section p, .sidebar p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                color: #333;
+            }
+            
+            /* Existing styles for testimonials, gallery, and FAQ */
+            
+            @media (min-width: 768px) {
+                .content-wrapper {
+                    flex-direction: row;
+                    gap: 2rem;
+                }
+            
+                .main-content {
+                    flex: 2;
+                }
+            
+                .sidebar {
+                    flex: 1;
+                }
+            }
+            
+            .testimonials, .photo-gallery, .faq {
+                margin-bottom: 2rem;
+                padding: 1.5rem;
+                background-color: #f8f8f8;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            
+            .testimonial {
+                margin-bottom: 1rem;
+                font-style: italic;
+            }
+            
+            .testimonial cite {
+                display: block;
+                text-align: right;
+                font-style: normal;
+                margin-top: 0.5rem;
+            }
+            
+            .gallery-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+            }
+            
+            .gallery-container img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 4px;
+            }
+            
+            .faq details {
+                margin-bottom: 1rem;
+            }
+            
+            .faq summary {
+                cursor: pointer;
+                font-weight: bold;
+            }
+            
+            .faq p {
+                margin-top: 0.5rem;
+                padding-left: 1rem;
+            }
+            
+            @media (min-width: 768px) {
+                .about-us {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 2rem;
+                }
+            
+                .about-us h1 {
+                    grid-column: 1 / -1;
+                }
+            }
+            --- End of about_us.css ---
+        address.css
+            --- Start of address.css ---
+            /* about_menu/css/address.css */
+            
+            .address-content {
+                padding: 2rem 0;
+                background-color: #ffffff;
+            }
+            
+            .address-content h2 {
+                text-align: center;
+                margin-bottom: 2rem;
+                color: #333;
+            }
+            
+            .address-info {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 2rem;
+            }
+            
+            .mailing-address, .map-embed {
+                flex-basis: calc(50% - 1rem);
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 1.5rem;
+            }
+            
+            .mailing-address h3, .map-embed h3 {
+                margin-bottom: 1rem;
+                color: #444;
+                border-bottom: 2px solid #ddd;
+                padding-bottom: 0.5rem;
+            }
+            
+            .address-card {
+                background-color: #f0f0f0;
+                border-left: 4px solid #0066cc;
+                padding: 1rem;
+                border-radius: 4px;
+            }
+            
+            .address-card p {
+                margin-bottom: 0.5rem;
+            }
+            
+            .address-card strong {
+                color: #0066cc;
+            }
+            
+            .map-embed iframe {
+                width: 100%;
+                height: 350px;
+                border: none;
+                border-radius: 4px;
+            }
+            
+            @media (max-width: 768px) {
+                .mailing-address, .map-embed {
+                    flex-basis: 100%;
+                }
+            
+                .map-embed iframe {
+                    height: 300px;
+                }
+            }
+            --- End of address.css ---
+        contact.css
+            --- Start of contact.css ---
+            /* about_menu/css/contact.css */
+            
+            .contact-content {
+                padding: 2rem 0;
+                background-color: #ffffff;
+            }
+            
+            .contact-content h2 {
+                text-align: center;
+                margin-bottom: 2rem;
+                color: #333;
+            }
+            
+            .contact-info {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 2rem;
+            }
+            
+            .contact-person {
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 1.5rem;
+                text-align: center;
+                width: 300px;
+            }
+            
+            .contact-image {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 1rem;
+            }
+            
+            .contact-person h3 {
+                margin-bottom: 0.5rem;
+                color: #333;
+                font-size: 1.4rem;
+            }
+            
+            .contact-person .occupation {
+                color: #666;
+                font-weight: bold;
+                margin-bottom: 0.2rem;
+                font-size: 1.1rem;
+            }
+            
+            .contact-person .sub-occupation {
+                color: #888;
+                font-style: italic;
+                margin-bottom: 1rem;
+                font-size: 0.9rem;
+            }
+            
+            .contact-person p {
+                margin-bottom: 0.5rem;
+            }
+            
+            .contact-person a {
+                color: #0066cc;
+                text-decoration: none;
+            }
+            
+            .contact-person a:hover {
+                text-decoration: underline;
+            }
+            
+            /* Responsive design */
+            @media (max-width: 768px) {
+                .contact-info {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            
+                .contact-person {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+            --- End of contact.css ---
+        director.css
+            --- Start of director.css ---
+            /* Director Profile Page Styles */
+            .director-profile {
+                padding: 2rem 0;
+                background-color: #fff;
+            }
+            
+            .director-profile h2 {
+                text-align: center;
+                margin-bottom: 2rem;
+                color: #333;
+            }
+            
+            .profile-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 1rem;
+            }
+            
+            .profile-photo {
+                flex: 1;
+                min-width: 300px;
+                max-width: 400px;
+            }
+            
+            .profile-photo img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            
+            .profile-info {
+                flex: 2;
+                min-width: 300px;
+            }
+            
+            .profile-info h3 {
+                font-size: 2rem;
+                color: #333;
+                margin-bottom: 1rem;
+                border-bottom: 2px solid #000;
+                padding-bottom: 0.5rem;
+            }
+            
+            .position {
+                margin-bottom: 1.5rem;
+            }
+            
+            .position p {
+                margin: 0.3rem 0;
+            }
+            
+            .position .title {
+                font-weight: bold;
+                color: #444;
+            }
+            
+            .position .department,
+            .position .institution {
+                color: #666;
+            }
+            
+            .contact-info {
+                margin-bottom: 1.5rem;
+                padding: 1rem;
+                background-color: #f5f5f5;
+                border-radius: 4px;
+            }
+            
+            .contact-info p {
+                margin: 0.5rem 0;
+            }
+            
+            .contact-info a {
+                color: #0066cc;
+                text-decoration: none;
+            }
+            
+            .contact-info a:hover {
+                text-decoration: underline;
+            }
+            
+            .biography {
+                margin-top: 1.5rem;
+            }
+            
+            .biography h4 {
+                font-size: 1.2rem;
+                color: #333;
+                margin-bottom: 1rem;
+            }
+            
+            .biography p {
+                line-height: 1.6;
+                color: #444;
+            }
+            
+            /* Responsive Design */
+            @media (max-width: 768px) {
+                .profile-container {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            
+                .profile-photo {
+                    max-width: 300px;
+                }
+            
+                .profile-info {
+                    text-align: center;
+                }
+            
+                .contact-info {
+                    text-align: left;
+                }
+            
+                .biography {
+                    text-align: left;
+                }
+            }
+            --- End of director.css ---
+        social_media.css
+            --- Start of social_media.css ---
+            /* Social Media and Housing Info Page Styles */
+            .social-media-content, .housing-info {
+                padding: 2rem 0;
+                background-color: #ffffff;
+            }
+            
+            .social-media-content h2, .housing-info h2 {
+                text-align: center;
+                margin-bottom: 2rem;
+                color: #333;
+            }
+            
+            /* Social Media Link Card */
+            .social-links {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 3rem;
+            }
+            
+            .social-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                text-decoration: none;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                width: 250px;
+            }
+            
+            .social-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            }
+            
+            .social-card i {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+            
+            .social-card .platform-name {
+                font-size: 1.4rem;
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+            }
+            
+            .social-card .handle {
+                font-size: 1rem;
+                color: #666;
+            }
+            
+            .instagram {
+                color: #E1306C;
+            }
+            
+            /* Responsive Design */
+            @media (max-width: 768px) {
+                .social-card {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+            --- End of social_media.css ---
+    director.html
+        --- Start of director.html ---
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>La Casa Bolívar</title>
+            <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="css/director.css">
+        </head>
+        <body>
+            <!-- Header Section -->
+            <header>
+                <div class="container">
+                    <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+        
+                    <!-- Navigation with Dropdown -->
+                    <nav>
+                        <ul id="nav-links">
+                            <li><a href="../index.html">Principal</a></li>
+                            <li><a href="../residents.html">Conocer a los Residentes</a></li>
+                            <li class="dropdown">
+                                <span class="dropbtn">Sobre</span>
+                                <div class="dropdown-content">
+                                    <a href="about_us.html">Sobre Nosotros</a>
+                                    <a href="address.html">Dirección</a>
+                                    <a href="social_media.html">Redes Sociales</a>
+                                    <a href="director.html">Director</a>
+                                    <a href="contact.html">Contacto</a>
+                                </div>
+                            </li>
+                            <li><a href="../living.html">Vivir en La Casa</a></li>
+                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../past_events.html">Eventos Pasados</a></li>
+                            <li><a href="../more.html">Más</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        
+            <main>
+                <section class="director-profile">
+                    <div class="container">
+                        <h2>Conocer al Director/a</h2>
+                        <div class="profile-container">
+                            <div class="profile-photo">
+                                <img src="../images/placeholder.jpg" alt="Director Name">
+                            </div>
+                            <div class="profile-info">
+                                <h3>Nombre del Director/a</h3>
+                                <div class="position">
+                                    <p class="title">Su ocupación</p>
+                                    <p class="department">Su Departamento</p>
+                                    <p class="institution">Universidad de Virginia</p>
+                                </div>
+                                <div class="contact-info">
+                                    <p>Email: <a href="mailto:example@virginia.edu">example@virginia.edu</a></p>
+                                </div>
+                                <div class="biography">
+                                    <h4>Biografía</h4>
+                                    <p>[Insert biographical information here.]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        
+            <!-- Footer Section -->
+            <footer>
+                <div class="container">
+                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                </div>
+            </footer>
+        
+            <!-- JavaScript to Handle the Hamburger Menu -->
+            <script src="../js/main.js"></script>
+        </body>
+        </html>
+        --- End of director.html ---
+    [images]/
+    [js]/
+        about_us.js
+            --- Start of about_us.js ---
+
+            --- End of about_us.js ---
+        address.js
+            --- Start of address.js ---
+
+            --- End of address.js ---
+        contact.js
+            --- Start of contact.js ---
+
+            --- End of contact.js ---
+        director.js
+            --- Start of director.js ---
+
+            --- End of director.js ---
+        social_media.js
+            --- Start of social_media.js ---
+
+            --- End of social_media.js ---
+    social_media.html
+        --- Start of social_media.html ---
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>La Casa Bolívar</title>
+            <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="css/social_media.css">
+            <!-- Font Awesome for social media icons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        </head>
+        <body>
+            <!-- Header Section -->
+            <header>
+                <div class="container">
+                    <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+        
+                    <!-- Navigation with Dropdown -->
+                    <nav>
+                        <ul id="nav-links">
+                            <li><a href="../index.html">Principal</a></li>
+                            <li><a href="../residents.html">Conocer a los Residentes</a></li>
+                            <li class="dropdown">
+                                <span class="dropbtn">Sobre</span>
+                                <div class="dropdown-content">
+                                    <a href="about_us.html">Sobre Nosotros</a>
+                                    <a href="address.html">Dirección</a>
+                                    <a href="social_media.html">Redes Sociales</a>
+                                    <a href="director.html">Director</a>
+                                    <a href="contact.html">Contacto</a>
+                                </div>
+                            </li>
+                            <li><a href="../living.html">Vivir en La Casa</a></li>
+                            <li><a href="../current_events.html">Actividades 2023-24</a></li>
+                            <li><a href="../past_events.html">Eventos Pasados</a></li>
+                            <li><a href="../more.html">Más</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        
+            <!-- Main Content Area -->
+            <main>
+                <section class="social-media-content">
+                    <div class="container">
+                        <h2>Síguenos:</h2>
+                        
+                        <!-- Instagram Link -->
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/uvacasabolivar/" target="_blank" class="social-card instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span class="platform-name">Instagram</span>
+                                <span class="handle">@uvacasabolivar</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        
+            <!-- Footer Section -->
+            <footer>
+                <div class="container">
+                    <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+                </div>
+            </footer>
+        
+            <!-- JavaScript to Handle the Hamburger Menu -->
+            <script src="../js/main.js"></script>
+        </body>
+        </html>
+        --- End of social_media.html ---
+[css]/
+    current_events.css
+        --- Start of current_events.css ---
+
+        --- End of current_events.css ---
+    index.css
+        --- Start of index.css ---
+
+        --- End of index.css ---
+    living.css
+        --- Start of living.css ---
+
+        --- End of living.css ---
+    maintenance.css
+        --- Start of maintenance.css ---
+        /* Construction message styling */
+        .coming-soon {
+            text-align: center;
+            padding: 4rem 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            background: linear-gradient(145deg, #ffffff 0%, #f5f5f5 100%);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.8s ease-in;
+        }
+        
+        .coming-soon h2 {
+            font-size: 2.5rem;
+            color: #0066cc;
+            margin-bottom: 1.5rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .coming-soon h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #0066cc, transparent);
+        }
+        
+        .coming-soon p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+            margin: 1rem 0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .coming-soon::before {
+            content: '🏗️';
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 1rem;
+            animation: bounce 2s infinite;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .coming-soon {
+                margin: 1rem;
+                padding: 2rem 1rem;
+            }
+        
+            .coming-soon h2 {
+                font-size: 2rem;
+            }
+        
+            .coming-soon p {
+                font-size: 1.1rem;
+            }
+        }
+        
+        /* Optional: Add a hover effect */
+        .coming-soon:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+        --- End of maintenance.css ---
+    more.css
+        --- Start of more.css ---
+
+        --- End of more.css ---
+    past_events.css
+        --- Start of past_events.css ---
+
+        --- End of past_events.css ---
+    residents.css
+        --- Start of residents.css ---
+        /* Residents Page Styles */
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .residents-intro {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #ffffff;
+            margin-bottom: 40px;
+        }
+        
+        .residents-intro h2 {
+            font-size: 2.5rem;
+            color: #232D4B;
+            margin-bottom: 20px;
+        }
+        
+        .residents-intro p {
+            font-size: 1.1rem;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .residents-carousel {
+            padding: 40px 0;
+        }
+        
+        .residents-carousel h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #232D4B;
+            margin-bottom: 30px;
+        }
+        
+        .carousel-container {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .resident-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            display: none;
+        }
+        
+        .resident-card.active {
+            display: block;
+        }
+        
+        .resident-card img {
+            width: 500px;
+            height: 500px;
+            border-radius: 5%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid #000000;
+        }
+        
+        .resident-card img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .resident-card h3 {
+            font-size: 1.5rem;
+            color: #232D4B;
+            margin-bottom: 10px;
+        }
+        
+        .resident-card p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        
+        .resident-card p strong {
+            color: #232D4B;
+        }
+        
+        .carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #F84C1E;
+            color: #fff;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .carousel-control:hover {
+            background-color: #232D4B;
+        }
+        
+        .carousel-control.left {
+            left: -60px;
+        }
+        
+        .carousel-control.right {
+            right: -60px;
+        }
+        
+        .carousel-indicators {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .indicator {
+            width: 12px;
+            height: 12px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .indicator.active {
+            background-color: #F84C1E;
+        }
+        
+        @media (max-width: 768px) {
+            .carousel-control {
+                display: none;
+            }
+        
+            .resident-card {
+                padding: 20px;
+            }
+        
+            .resident-card img {
+                width: 300px;
+                height: 300px;
+            }
+        }
+        --- End of residents.css ---
+    style.css
+        --- Start of style.css ---
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            height: 100%;
+        }
+        
+        /* Dropdown Container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* Dropdown Button */
+        .dropbtn {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        
+        .dropbtn::after {
+            content: '\25BC';
+            font-size: 0.7em;
+            margin-left: 5px;
+        }
+        
+        /* Dropdown Content (Hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #232D4B;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+            left: -50%;
+            top: 100%;
+            margin-top: 0;
+        }
+        
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        
+        /* Links inside the Dropdown */
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #F84C1E;
+            color: white;
+        }
+        
+        /* Show the dropdown on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+            animation: fadeIn 0.3s;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: 'Arial', sans-serif;
+            background-color: #fff;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #232D4B;
+            color: #fff;
+            padding: 10px 0;
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+            position: relative;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        
+        nav ul li a.active {
+            color: #ff5722;
+        }
+        
+        /* Hamburger Menu Button */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        
+        .menu-toggle span {
+            width: 30px;
+            height: 3px;
+            background: white;
+            margin: 5px 0;
+            transition: all 0.3s ease;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .hero img {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        /* Welcome Section */
+        .welcome {
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .welcome h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #232D4B;
+            border-bottom: 3px solid #F84C1E;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        
+        .welcome p {
+            font-size: 1.1rem;
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        /* Footer Styles */
+        footer {
+            background-color: #232D4B;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+            width: 100%;
+            margin-top: auto;
+        }
+        
+        footer .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        footer .footer-info {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-top: 1px solid #fff;
+        }
+        
+        footer .column {
+            text-align: left;
+            width: 45%;
+        }
+        
+        footer h4 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #fff;
+        }
+        
+        footer p {
+            margin: 0.3rem 0;
+            color: #ccc;
+        }
+        
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color: #ff5722;
+        }
+        
+        nav ul li a:hover {
+            color: #F84C1E;
+            transition: color 0.3s ease;
+        }
+        
+        nav ul li a.active {
+            color: #F84C1E;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #F84C1E;
+        }
+        
+        footer a:hover {
+            color: #F84C1E;
+        }
+        
+        section h2 {
+            color: #232D4B;
+        }
+        
+        .social-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(248, 76, 30, 0.2);  /* Orange shadow */
+            border: 2px solid #F84C1E;  /* Orange border on hover */
+        }
+        
+        /* Media Queries for Mobile View */
+        @media (max-width: 768px) {
+            /* Hide desktop navigation */
+            nav ul {
+                display: none;
+                width: 100%;
+            }
+        
+            nav ul li {
+                width: 100%;
+                margin: 0;
+                text-align: center;
+            }
+        
+            header {
+                padding: 40px 0;
+            }
+        
+            /* Display hamburger menu */
+            .menu-toggle {
+                display: flex;
+            }
+        
+            /* Adjust footer layout for mobile */
+            footer .footer-info {
+                flex-direction: column;
+                text-align: center;
+            }
+        
+            footer .column {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        
+            /* Mobile hero image */
+            .hero img {
+                width: 100%;
+                border-radius: 0;
+            }
+        
+            .dropdown-content {
+                position: relative;
+                left: 0;
+                transform: none;
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+        
+        /* Show mobile nav when menu is toggled */
+        #nav-links.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        /* When the menu is open */
+        #mobile-menu.active {
+            z-index: 1001; /* Adjust as necessary */
+        }
+        
+        #nav-links {
+            display: none; /* Hide by default */
+            /* Add other styles as necessary */
+        }
+        --- End of style.css ---
+current_events.html
+    --- Start of current_events.html ---
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Casa Bolívar</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/maintenance.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <!-- Navigation with Dropdown -->
+                <nav>
+                    <ul id="nav-links">
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="residents.html">Conocer a los Residentes</a></li>
+                        <li class="dropdown">
+                            <span class="dropbtn">Sobre</span>
+                            <div class="dropdown-content">
+                                <a href="about_menu/about_us.html">Sobre Nosotros</a>
+                                <a href="about_menu/address.html">Dirección</a>
+                                <a href="about_menu/social_media.html">Redes Sociales</a>
+                                <a href="about_menu/director.html">Director</a>
+                                <a href="about_menu/contact.html">Contacto</a>
+                            </div>
+                        </li>
+                        <li><a href="living.html">Vivir en La Casa</a></li>
+                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="past_events.html">Eventos Pasados</a></li>
+                        <li><a href="more.html">Más</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <!-- Main Content Area -->
+        <main>
+            <section class="coming-soon">
+                <h2>¡Próximamente!</h2>
+                <p>Esta página está actualmente en construcción. Por favor, vuelva a consultar más tarde para ver las actividades actuales de La Casa Bolívar.</p>
+                <p>Gracias por su paciencia.</p>
+            </section>
+        </main>
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+            </div>
+        </footer>
+    
+        <!-- JavaScript to Handle the Hamburger Menu -->
+        <script src="js/main.js"></script>
+    </body>
+    </html>
+    --- End of current_events.html ---
+[data]/
+    residents.json
+        --- Start of residents.json ---
+        [
+          {
+            "name": "Charles Melvin",
+            "role": "Residente",
+            "major": ["Ciencia Cognitiva", "Informática"],
+            "year": "Tercero",
+            "hometown": "Drybranch, WV, EE.UU.",
+            "bio": "(Bio corto va aqui)",
+            "interests": ["Programación", "Videojuegos", "Correr"],
+            "image": "sample.webp"
+          },
+          {
+            "name": "L",
+            "role": "Resident",
+            "major": ["None"],
+            "year": "Tenth",
+            "hometown": "Bajookieland",
+            "bio": "DUMMY",
+            "interests": ["Walking", "Parkour"],
+            "image": "placeholder.jpg"
+          },
+          {
+            "name": "John Doe",
+            "role": "Resident",
+            "major": ["Study Studies"],
+            "year": "Zeroth",
+            "hometown": "Bajonkistan",
+            "bio": "DUMMY",
+            "interests": ["None"],
+            "image": "placeholder.jpg"
+          },
+          {
+            "name": "Jane Doe",
+            "role": "Resident",
+            "major": ["Eating Studies"],
+            "year": "-First",
+            "hometown": "Mars",
+            "bio": "DUMMY",
+            "interests": ["Sitting", "Eating chairs", "Filbism"],
+            "image": "placeholder.jpg"
+          },
+          {
+            "name": "Filbus",
+            "role": "Transcendental Being",
+            "major": ["None"],
+            "year": "Infinitith",
+            "hometown": "???",
+            "bio": "DUMMY",
+            "interests": ["Spreading Filbism", "Eating chairs"],
+            "image": "filbus.webp"
+          }
+        ]
+        --- End of residents.json ---
+[images]/
+    casa-bolivar.jpg
+    logo.jpg
+    placeholder.jpg
+    [residents]/
+        filbus.webp
+        placeholder.jpg
+        sample.webp
+index.html
+    --- Start of index.html ---
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | La Casa Bolívar</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <nav>
+                    <ul id="nav-links">
+                        <li><a href="index.html" class="active">Principal</a></li>
+                        <li><a href="residents.html">Conocer a los Residentes</a></li>
+                        <!-- In the navigation section -->
+                        <li class="dropdown">
+                            <span class="dropbtn">Sobre</span>
+                            <div class="dropdown-content">
+                                <a href="about_menu/about_us.html">Sobre Nosotros</a>
+                                <a href="about_menu/address.html">Dirección</a>
+                                <a href="about_menu/social_media.html">Redes Sociales</a>
+                                <a href="about_menu/director.html">Director</a>
+                                <a href="about_menu/contact.html">Contacto</a>
+                            </div>
+                        </li>
+                        <li><a href="living.html">Vivir en La Casa</a></li>
+                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="past_events.html">Eventos Pasados</a></li>
+                        <li><a href="more.html">Más</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <img src="images/casa-bolivar.jpg" alt="Casa Bolívar Spanish House">
+            </div>
+        </section>
+    
+        <!-- Welcome Section -->
+        <section class="welcome">
+            <div class="container">
+                <h2>Bienvenidos a La Casa Bolívar</h2>
+                <p>[insert subtext here]</p>
+            </div>
+        </section>
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <div class="footer-info">
+                    <div class="column">
+                        <h4>Dirección</h4>
+                        <p>Casa Bolívar</p>
+                        <p>1408 Jefferson Park Ave</p>
+                        <p>Charlottesville, VA 22903</p>
+                    </div>
+                    <div class="column">
+                        <h4>Contacto</h4>
+                        <p><strong>Profesora:</strong> Nieves Prados Garcia</p>
+                        <p>Email: <a href="mailto:mdg4xf@virginia.edu">mdg4xf@virginia.edu</a></p>
+                        <br>
+                        <p><strong>Administrador del Sitio:</strong> Charles Melvin</p>
+                        <p>Email: <a href="mailto:jgm6jy@virginia.edu">jgm6jy@virginia.edu</a></p>
+                    </div>
+                </div>
+                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+        <!-- JavaScript to Handle the Hamburger Menu -->
+        <script src="js/main.js"></script>
+    </body>
+    </html>
+    --- End of index.html ---
+[js]/
+    main.js
+        --- Start of main.js ---
+        // Toggle mobile menu
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+        
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        --- End of main.js ---
+    residents.js
+        --- Start of residents.js ---
+        let residents = [];
+        let currentSlide = 0;
+        const slidesContainer = document.getElementById('residents-container');
+        const indicatorsContainer = document.getElementById('carousel-indicators');
+        
+        // Fetch resident data
+        fetch('./data/residents.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Data loaded:', data); // Debug log
+                residents = data;
+                createResidentCards();
+                createIndicators();
+                showSlide(currentSlide);
+            })
+            .catch(error => {
+                console.error('Error loading resident data:', error);
+                slidesContainer.innerHTML = '<p>Error loading resident data. Please try again later.</p>';
+            });
+        
+        function createResidentCards() {
+            residents.forEach((resident, index) => {
+                const card = document.createElement('div');
+                card.className = 'resident-card';
+                card.innerHTML = `
+                    <img src="images/residents/${resident.image}" alt="${resident.name}">
+                    <h3>${resident.name}</h3>
+                    <p>${resident.role}</p>
+                    <p><strong>Especialidad:</strong> ${resident.major.join(', ')}</p>
+                    <p><strong>Año:</strong> ${resident.year}</p>
+                    <p><strong>Natal:</strong> ${resident.hometown}</p>
+                    <p><strong>Intereses:</strong> ${resident.interests.join(', ')}</p>
+                    <p>${resident.bio}</p>
+                `;
+                slidesContainer.appendChild(card);
+            });
+        }
+        
+        function createIndicators() {
+            residents.forEach((_, index) => {
+                const indicator = document.createElement('span');
+                indicator.className = 'indicator';
+                indicator.onclick = () => showSlide(index);
+                indicatorsContainer.appendChild(indicator);
+            });
+        }
+        
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.resident-card');
+            const indicators = document.querySelectorAll('.indicator');
+            
+            slides.forEach(slide => slide.style.display = 'none');
+            indicators.forEach(indicator => indicator.classList.remove('active'));
+            
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].style.display = 'block';
+            indicators[currentSlide].classList.add('active');
+        }
+        
+        document.getElementById('prev').addEventListener('click', () => showSlide(currentSlide - 1));
+        document.getElementById('next').addEventListener('click', () => showSlide(currentSlide + 1));
+        
+        // Initial setup
+        window.onload = () => {
+            if (residents.length > 0) {
+                createResidentCards();
+                createIndicators();
+                showSlide(currentSlide);
+            }
+        };
+        --- End of residents.js ---
+living.html
+    --- Start of living.html ---
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Casa Bolívar</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/maintenance.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <!-- Navigation with Dropdown -->
+                <nav>
+                    <ul id="nav-links">
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="residents.html">Conocer a los Residentes</a></li>
+                        <li class="dropdown">
+                            <span class="dropbtn">Sobre</span>
+                            <div class="dropdown-content">
+                                <a href="about_menu/about_us.html">Sobre Nosotros</a>
+                                <a href="about_menu/address.html">Dirección</a>
+                                <a href="about_menu/social_media.html">Redes Sociales</a>
+                                <a href="about_menu/director.html">Director</a>
+                                <a href="about_menu/contact.html">Contacto</a>
+                            </div>
+                        </li>
+                        <li><a href="living.html">Vivir en La Casa</a></li>
+                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="past_events.html">Eventos Pasados</a></li>
+                        <li><a href="more.html">Más</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <!-- Main Content Area -->
+        <main>
+            <section class="coming-soon">
+                <h2>¡Próximamente!</h2>
+                <p>Esta página está actualmente en construcción. Por favor, vuelva a consultar más tarde para ver las actividades actuales de La Casa Bolívar.</p>
+                <p>Gracias por su paciencia.</p>
+            </section>
+        </main>
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+            </div>
+        </footer>
+    
+        <!-- JavaScript to Handle the Hamburger Menu -->
+        <script src="js/main.js"></script>
+    </body>
+    </html>
+    --- End of living.html ---
+more.html
+    --- Start of more.html ---
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Casa Bolívar</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/maintenance.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <!-- Navigation with Dropdown -->
+                <nav>
+                    <ul id="nav-links">
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="residents.html">Conocer a los Residentes</a></li>
+                        <li class="dropdown">
+                            <span class="dropbtn">Sobre</span>
+                            <div class="dropdown-content">
+                                <a href="about_menu/about_us.html">Sobre Nosotros</a>
+                                <a href="about_menu/address.html">Dirección</a>
+                                <a href="about_menu/social_media.html">Redes Sociales</a>
+                                <a href="about_menu/director.html">Director</a>
+                                <a href="about_menu/contact.html">Contacto</a>
+                            </div>
+                        </li>
+                        <li><a href="living.html">Vivir en La Casa</a></li>
+                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="past_events.html">Eventos Pasados</a></li>
+                        <li><a href="more.html">Más</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <!-- Main Content Area -->
+        <main>
+            <section class="coming-soon">
+                <h2>¡Próximamente!</h2>
+                <p>Esta página está actualmente en construcción. Por favor, vuelva a consultar más tarde para ver las actividades actuales de La Casa Bolívar.</p>
+                <p>Gracias por su paciencia.</p>
+            </section>
+        </main>
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+            </div>
+        </footer>
+    
+        <!-- JavaScript to Handle the Hamburger Menu -->
+        <script src="js/main.js"></script>
+    </body>
+    </html>
+    --- End of more.html ---
+past_events.html
+    --- Start of past_events.html ---
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Casa Bolívar</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/maintenance.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <!-- Navigation with Dropdown -->
+                <nav>
+                    <ul id="nav-links">
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="residents.html">Conocer a los Residentes</a></li>
+                        <li class="dropdown">
+                            <span class="dropbtn">Sobre</span>
+                            <div class="dropdown-content">
+                                <a href="about_menu/about_us.html">Sobre Nosotros</a>
+                                <a href="about_menu/address.html">Dirección</a>
+                                <a href="about_menu/social_media.html">Redes Sociales</a>
+                                <a href="about_menu/director.html">Director</a>
+                                <a href="about_menu/contact.html">Contacto</a>
+                            </div>
+                        </li>
+                        <li><a href="living.html">Vivir en La Casa</a></li>
+                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="past_events.html">Eventos Pasados</a></li>
+                        <li><a href="more.html">Más</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <!-- Main Content Area -->
+        <main>
+            <section class="coming-soon">
+                <h2>¡Próximamente!</h2>
+                <p>Esta página está actualmente en construcción. Por favor, vuelva a consultar más tarde para ver las actividades actuales de La Casa Bolívar.</p>
+                <p>Gracias por su paciencia.</p>
+            </section>
+        </main>
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+            </div>
+        </footer>
+    
+        <!-- JavaScript to Handle the Hamburger Menu -->
+        <script src="js/main.js"></script>
+    </body>
+    </html>
+    --- End of past_events.html ---
+README.md
+    [Could not read file: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte]
+residents.html
+    --- Start of residents.html ---
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conocer a los Residentes | La Casa Bolívar</title>
+        
+        <!-- Global CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    
+        <!-- Page-Specific CSS for Carousel -->
+        <link rel="stylesheet" href="css/residents.css">
+    </head>
+    <body>
+    
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <!-- Hamburger Menu Button (Visible in Mobile View) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <!-- Global Navbar -->
+                <nav>
+                    <ul id="nav-links">
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="residents.html" class="active">Conocer a los Residentes</a></li>
+                        <li class="dropdown">
+                            <span class="dropbtn">Sobre</=>
+                            <div class="dropdown-content">
+                                <a href="about_menu/about_us.html">Sobre Nosotros</a>
+                                <a href="about_menu/address.html">Dirección</a>
+                                <a href="about_menu/social_media.html">Redes Sociales</a>
+                                <a href="about_menu/director.html">Director</a>
+                                <a href="about_menu/contact.html">Contacto</a>
+                            </div>
+                        </li>
+                        <li><a href="living.html">Vivir en La Casa</a></li>
+                        <li><a href="current_events.html">Actividades 2023-24</a></li>
+                        <li><a href="past_events.html">Eventos Pasados</a></li>
+                        <li><a href="more.html">Más</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <main>
+            <section class="residents-intro">
+                <div class="container">
+                    <h2>Nuestros Residentes</h2>
+                    <p>Conoce a los estudiantes que viven en La Casa Bolívar durante el año académico 2023-2024.</p>
+                </div>
+            </section>
+    
+            <section class="residents-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-control left" id="prev" aria-label="Previous resident">&#10094;</button>
+                    <div class="carousel-control right" id="next" aria-label="Next resident">&#10095;</button>
+    
+                    <div id="residents-container">
+                        <!-- Resident cards will be dynamically inserted here -->
+                    </div>
+                </div>
+    
+                <div class="carousel-indicators" id="carousel-indicators">
+                    <!-- Indicators will be dynamically inserted here -->
+                </div>
+            </section>
+        </main>
+    
+        <!-- Global Footer -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Charles L. Melvin. La Casa Bolívar. University of Virginia. All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+        <!-- Global JavaScript -->
+        <script src="js/main.js"></script>
+    
+        <!-- Page-Specific JavaScript for Carousel -->
+        <script src="js/residents.js"></script>
+    </body>
+    </html>
+    --- End of residents.html ---
