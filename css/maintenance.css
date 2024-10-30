@@ -1,0 +1,92 @@
+/* Construction message styling */
+.coming-soon {
+    text-align: center;
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background: linear-gradient(145deg, #ffffff 0%, #f5f5f5 100%);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in;
+}
+
+.coming-soon h2 {
+    font-size: 2.5rem;
+    color: #0066cc;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.coming-soon h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #0066cc, transparent);
+}
+
+.coming-soon p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 1rem 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coming-soon::before {
+    content: '🏗️';
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+    animation: bounce 2s infinite;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .coming-soon {
+        margin: 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .coming-soon h2 {
+        font-size: 2rem;
+    }
+
+    .coming-soon p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Optional: Add a hover effect */
+.coming-soon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
